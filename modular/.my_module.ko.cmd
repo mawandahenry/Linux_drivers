@@ -1,0 +1,1 @@
+cmd_/home/naco/Desktop/modular/modular/my_module.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/naco/Desktop/modular/modular/my_module.ko /home/naco/Desktop/modular/modular/my_module.o /home/naco/Desktop/modular/modular/my_module.mod.o

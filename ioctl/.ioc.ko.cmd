@@ -1,0 +1,1 @@
+cmd_/home/naco/Desktop/modular/ioctl/ioc.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/naco/Desktop/modular/ioctl/ioc.ko /home/naco/Desktop/modular/ioctl/ioc.o /home/naco/Desktop/modular/ioctl/ioc.mod.o ;  true
